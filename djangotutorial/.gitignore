@@ -17,3 +17,7 @@ media/
 .vscode/
 .idea/
 .ebextensions/
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
