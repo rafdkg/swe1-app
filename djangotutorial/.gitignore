@@ -21,3 +21,6 @@ media/
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+# Zip Upload
+eb-deploy.zip/
