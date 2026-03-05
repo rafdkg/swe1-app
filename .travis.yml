@@ -9,12 +9,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: us-east-2
-  app: mysite
-  env: Mysite-env
-  bucket_name: elasticbeanstalk-us-east-2-056230039457
+  bucket: elasticbeanstalk-us-east-2-056230039457
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   on:
-    - branch: main
+    branch: main
   # edge: true # opt in to dpl v2
   
