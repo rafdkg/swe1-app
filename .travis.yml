@@ -2,6 +2,6 @@ language: python
 python:
   - "3.14"
 install:
-  - pip install -r requirements.txt
+  - pip install -r ./djangotutorial/requirements.txt
 script: 
   - pythest
