@@ -13,6 +13,6 @@ deploy:
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   on:
     - branch: main
-  bucket: elasticbeanstalk-us-east-1-056230039457
+  bucket: elasticbeanstalk-us-east-2-056230039457
   # edge: true # opt in to dpl v2
   
