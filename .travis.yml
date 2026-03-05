@@ -4,4 +4,4 @@ python:
 install:
   - pip install -r ./djangotutorial/requirements.txt
 script: 
-  - pythest
+  - pytest
