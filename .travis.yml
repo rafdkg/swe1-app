@@ -7,7 +7,7 @@ install:
 script: 
   - cd djangotutorial && coverage run -m pytest
 after_success:
-  - cd djangotutorial && coveralls
+  - coveralls
 deploy:
   provider: elasticbeanstalk
   region: us-east-2
