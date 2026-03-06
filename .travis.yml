@@ -3,9 +3,11 @@ python:
   - "3.14"
 install:
   - pip install -r ./djangotutorial/requirements.txt
+  - pip intall coverage coveralls
 script: 
-  - cd djangotutorial
-  - pytest
+  - cd djangotutorial && coverage run -m pytest
+after_success:
+  - cd djangotutorial && coveralls
 deploy:
   provider: elasticbeanstalk
   region: us-east-2
