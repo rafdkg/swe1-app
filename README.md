@@ -1,2 +1,2 @@
 [![Build Status](https://api.travis-ci.com/rafdkg/swe1-app.png?branch=main)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
-[![Coverage Status](https://coveralls.io/repos/github/rafdkg/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/YOUR_GITHUB_USERNAME/YOUR_REPO?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/rafdkg/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/rafdkg/swe1-app?branch=main)
