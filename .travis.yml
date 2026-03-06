@@ -5,7 +5,7 @@ install:
   - pip install -r ./djangotutorial/requirements.txt
   - pip install coverage 'coveralls[yaml]'
 script: 
-  - cd djangotutorial && coverage run -m pytest
+  - coverage run -m pytest
 after_success:
   - coveralls --verbose
 deploy:
