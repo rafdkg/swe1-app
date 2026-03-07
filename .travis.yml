@@ -3,8 +3,10 @@ python:
   - "3.14"
 install:
   - pip install -r ./djangotutorial/requirements.txt
-  - pip install coverage 'coveralls[yaml]'
+  - pip install coverage 'coveralls[yaml]' flake8 black
 script: 
+  - flake8 djangotutorial
+  - black --check djangotutorial
   - coverage run -m pytest
 after_success:
   - coveralls --verbose
